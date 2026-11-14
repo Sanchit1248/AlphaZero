@@ -51,7 +51,3 @@ Open `TicTacToe.ipynb` and run the cells top to bottom. Skip the interactive pla
 
 The Go game class (built on `GoModules/`) works with the same MCTS and training code, unchanged. Self-play is currently slow (~10 s per 5×5 game, ~40 s per 9×9 game) because the rules are pure Python and the network sees one board at a time. Next steps: batched parallel self-play, faster rules, then 9×9 training evaluated against GNU Go.
 
-## References
-
-- Silver et al., *Mastering the game of Go without human knowledge* (AlphaGo Zero), Nature 2017.
-- Silver et al., *A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play* (AlphaZero), Science 2018.
